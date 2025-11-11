@@ -22,10 +22,18 @@ To create a Python class `Student` with a destructor.
 ### PROGRAM
 
 ```
-
+class Student:
+    def _init_(self):
+        print("Employee created.")
+    def _del_(self):
+        
+        print("Destructor called, Employee deleted.")
+Student()
 ```
 
 ### OUTPUT
+<img width="1165" height="207" alt="438288410-914f3b94-78c3-44e4-a041-bfdefaadd169" src="https://github.com/user-attachments/assets/ebc77903-9b4f-4989-9b85-c8ffdfde7385" />
 
 
 ### RESULT
+Thus a Python class Student with a destructor was executed and implemented successfully.
